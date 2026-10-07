@@ -1,8 +1,19 @@
-Checkpoints/*
-logs/*
-__pycache__/*
+# Dataset — do not redistribute
+Data/
+*.xlsx
+
+# Python
+__pycache__/
 *.pyc
-Inference_Corpus/*
-logs/*
-Logs/*
-*.zip
+.venv/
+venv/
+
+# Experiment outputs
+oracle_results.json
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
